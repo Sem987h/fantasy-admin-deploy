@@ -46140,7 +46140,7 @@ var $async$AH=A.U(function(d,e){if(d===1)return A.Q(e,r)
 while(true)switch(s){case 0:A.Lf(b)
 p=A.el("http://13.233.42.101/v1/admin/"+a)
 o=t.N
-o=A.ar(["Content-Type","application/json"],o,o)
+o=A.ar(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","GET, POST, PUT, PATCH, DELETE, OPTIONS"],o,o)
 s=3
 return A.Z(A.aDu(p,B.aU.kY(b),o),$async$AH)
 case 3:n=e
