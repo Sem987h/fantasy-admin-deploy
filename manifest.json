@@ -1,6 +1,6 @@
 {
-    "name": "fantasy_admin_internal",
-    "short_name": "fantasy_admin_internal",
+    "name": "sample",
+    "short_name": "sample",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
