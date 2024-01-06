@@ -46863,7 +46863,7 @@ xB(a,b,c){return this.a_6(a,b,c)},
 a_6(a,b,c){var s=0,r=A.N(t.z),q,p=this,o,n,m,l
 var $async$xB=A.O(function(d,e){if(d===1)return A.K(e,r)
 while(true)switch(s){case 0:s=3
-return A.Q(p.dk("cricket/matches"+("?series_id="+c+"&=limit="+a+"&offset="+b),!0),$async$xB)
+return A.Q(p.dk("admin/matches"+("?series_id="+c+"&=limit="+a+"&offset="+b),!0),$async$xB)
 case 3:o=e
 n=o.e
 m=A.bA(A.bx(n).c.a.h(0,"charset"))
