@@ -47467,7 +47467,7 @@ J.al(o)
 s=4
 break
 case 5:o=null
-case 4:n=A.iX("http://13.233.42.101/v1/"+a)
+case 4:n=A.iX("http://35.154.195.232/v1/"+a)
 m=t.N
 m=o==null?A.aK(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","GET, POST, PUT, PATCH, DELETE, OPTIONS"],m,m):A.aK(["Content-Type","application/json","Authorization","Bearer "+o],m,m)
 s=7
@@ -47489,7 +47489,7 @@ while(true)switch(s){case 0:s=3
 return A.K($.xx().i7("access_token"),$async$c4)
 case 3:l=d
 J.al(l)
-o=A.iX("http://13.233.42.101/v1/"+a)
+o=A.iX("http://35.154.195.232/v1/"+a)
 n=t.N
 s=4
 return A.K(A.aZs(o,l==null?A.aK(["Content-Type","application/json"],n,n):A.aK(["Content-Type","application/json","Authorization","Bearer "+l],n,n)),$async$c4)
@@ -47512,7 +47512,7 @@ case 2:l=b
 J.al(l)
 q=t.N
 s=3
-return A.K(A.aMp(A.iX("http://13.233.42.101/v1/admin/refresh_token"),null,A.aK(["Content-Type","application/json","Authorization","Bearer "+A.i(l)],q,q)),$async$t1)
+return A.K(A.aMp(A.iX("http://35.154.195.232/v1/admin/refresh_token"),null,A.aK(["Content-Type","application/json","Authorization","Bearer "+A.i(l)],q,q)),$async$t1)
 case 3:p=b
 q=p.e
 o=A.aS(A.aR(q).c.a.h(0,"charset"))
