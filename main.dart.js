@@ -49725,7 +49725,7 @@ BA(a,b){return this.anC(a,b)},
 anC(a,b){var s=0,r=A.x(t.z),q,p=this,o,n,m,l
 var $async$BA=A.y(function(c,d){if(c===1)return A.u(d,r)
 while(true)switch(s){case 0:s=3
-return A.E(p.bX("admin/bank"+("?user_id="+b+"&bank_status="+a),!0),$async$BA)
+return A.E(p.bX("admin/bank_status"+("?user_id="+b+"&bank_status="+a),!0),$async$BA)
 case 3:o=d
 n=o.e
 m=A.az(A.ay(n).c.a.h(0,"charset"))
@@ -49740,7 +49740,7 @@ DA(a,b){return this.auS(a,b)},
 auS(a,b){var s=0,r=A.x(t.z),q,p=this,o,n,m,l
 var $async$DA=A.y(function(c,d){if(c===1)return A.u(d,r)
 while(true)switch(s){case 0:s=3
-return A.E(p.bX("admin/pan"+("?user_id="+b+"&pan_status="+a),!0),$async$DA)
+return A.E(p.bX("admin/pan_status"+("?user_id="+b+"&pan_status="+a),!0),$async$DA)
 case 3:o=d
 n=o.e
 m=A.az(A.ay(n).c.a.h(0,"charset"))
